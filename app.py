@@ -50,7 +50,11 @@ search_term = st.text_input("Tìm kiếm thông tin trong dữ liệu:", "")
 
 
 # Tải dữ liệu
-data = pd.read_csv('./ad_click_dataset.csv')
+uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
+if uploaded_file is not None:
+    data = pd.read_csv(uploaded_file)
+    st.write(data.head())  # Hiển thị dữ liệu để kiểm tra
+
 
 
 # Tìm kiếm trong dữ liệu nếu có từ khóa
