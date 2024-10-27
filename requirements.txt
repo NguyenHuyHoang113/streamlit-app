@@ -1,9 +1,8 @@
-alembic @ file:///home/conda/feedstock_root/build_artifacts/alembic_1727122811080/work
-altair==5.4.1
+
+
 attrs==24.2.0
 blinker==1.8.2
-Bottleneck @ file:///C:/b/abs_f05kqh7yvj/croot/bottleneck_1707864273291/work
-cachetools==5.5.0
+
 certifi==2024.8.30
 charset-normalizer==3.4.0
 click==8.1.7
@@ -14,7 +13,7 @@ cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
 fonttools @ file:///C:/b/abs_f47gnfqnx0/croot/fonttools_1713551644747/work
 gitdb==4.0.11
 GitPython==3.1.43
-greenlet @ file:///D:/bld/greenlet_1726922341778/work
+
 idna==3.10
 imbalanced-learn @ file:///home/conda/feedstock_root/build_artifacts/imbalanced-learn_1728063863984/work
 importlib_metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1726082825846/work
@@ -36,10 +35,10 @@ mkl_random @ file:///C:/b/abs_21ydbzdu8d/croot/mkl_random_1725370276095/work
 narwhals==1.10.0
 numexpr @ file:///C:/b/abs_5fucrty5dc/croot/numexpr_1696515448831/work
 numpy @ file:///C:/b/abs_c1ywpu18ar/croot/numpy_and_numpy_base_1708638681471/work/dist/numpy-1.26.4-cp311-cp311-win_amd64.whl#sha256=5dfd3e04dc1c2826d3f404fdc7f93c097901f5da9b91f4f394f79d4e038ed81d
-optuna @ file:///home/conda/feedstock_root/build_artifacts/optuna_1725343393112/work
+
 packaging @ file:///C:/b/abs_c3vlh0z4jw/croot/packaging_1720101866539/work
 pandas @ file:///C:/b/abs_9aotnvvz16/croot/pandas_1718308978393/work/dist/pandas-2.2.2-cp311-cp311-win_amd64.whl#sha256=9eebcfbc7ae612209b886219f3be546c6b5d5ec8bb62ca107f5e66fde1fe8650
-pillow @ file:///C:/b/abs_32o8er3uqp/croot/pillow_1721059447598/work
+
 ply==3.11
 protobuf==5.28.3
 pyarrow==17.0.0
@@ -53,13 +52,12 @@ pytz @ file:///C:/b/abs_6ap4tsz1ox/croot/pytz_1713974360290/work
 PyYAML @ file:///D:/bld/pyyaml_1725456353121/work
 referencing==0.35.1
 requests==2.32.3
-rich==13.9.3
-rpds-py==0.20.0
+
+
 scikit-learn @ file:///C:/b/abs_aajc9f7v6r/croot/scikit-learn_1722067652693/work/dist/scikit_learn-1.5.1-cp311-cp311-win_amd64.whl#sha256=ef2d538ee0b3967ea4792c5e8d4d425e1408915ee175545cd14c35a63566ee17
 scipy @ file:///C:/b/abs_efv75hqhju/croot/scipy_1717521501389/work/dist/scipy-1.13.1-cp311-cp311-win_amd64.whl#sha256=76691b2bf520c036f20250927bb9e0bd003313ca5367b359c166eb1ece7225e5
 seaborn @ file:///C:/b/abs_ca2mi1rgmn/croot/seaborn_1718303534355/work
-sip @ file:///C:/b/abs_edevan3fce/croot/sip_1698675983372/work
-six @ file:///tmp/build/80754af9/six_1644875935023/work
+
 smmap==5.0.1
 SQLAlchemy @ file:///D:/bld/sqlalchemy_1729066404668/work
 streamlit==1.39.0
