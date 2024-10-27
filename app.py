@@ -48,8 +48,10 @@ st.markdown('<div class="title">Phân Tích Dữ Liệu Click Quảng Cáo</div>
 # Thanh tìm kiếm
 search_term = st.text_input("Tìm kiếm thông tin trong dữ liệu:", "")
 
+
 # Tải dữ liệu
-data = pd.read_csv('C:/Users/PC/Downloads/ad_click_dataset.csv')
+data = pd.read_csv('./ad_click_dataset.csv')
+
 
 # Tìm kiếm trong dữ liệu nếu có từ khóa
 if search_term:
