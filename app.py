@@ -50,12 +50,8 @@ search_term = st.text_input("Tìm kiếm thông tin trong dữ liệu:", "")
 
 
 # Tải dữ liệu
-uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
-if uploaded_file is not None:
-    data = pd.read_csv(uploaded_file)
-    st.write(data.head())  # Hiển thị dữ liệu để kiểm tra
-
-
+url = "https://raw.githubusercontent.com/NguyenHuyHoang113/streamlit-app/refs/heads/main/ad_click_dataset.csv"
+data = pd.read_csv(url)
 
 # Tìm kiếm trong dữ liệu nếu có từ khóa
 if search_term:
