@@ -43,8 +43,7 @@ st.markdown("""
 # Tiêu đề chính
 st.markdown('<div class="title">Phân Tích Dữ Liệu Click Quảng Cáo</div>', unsafe_allow_html=True)
 
-# Thêm hình ảnh hoặc logo (nếu có)
-st.image('C:/Users/PC/Downloads/logo.jpg', width=150, use_column_width=False)  # Thay đổi kích thước logo
+
 
 # Thanh tìm kiếm
 search_term = st.text_input("Tìm kiếm thông tin trong dữ liệu:", "")
